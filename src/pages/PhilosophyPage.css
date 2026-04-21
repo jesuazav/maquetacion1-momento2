@@ -1,0 +1,35 @@
+.philosophy-page {
+  width: 100%;
+}
+
+.philosophy-intro {
+  padding: 4rem 1rem;
+  background-color: var(--bg);
+}
+
+.philosophy-intro-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.intro-text p {
+  font-size: 1rem;
+  color: var(--text);
+  line-height: 1.8;
+  margin: 0 0 1.5rem 0;
+  text-align: center;
+}
+
+.intro-text p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .philosophy-intro {
+    padding: 2rem 1rem;
+  }
+
+  .intro-text p {
+    font-size: 0.95rem;
+  }
+}
